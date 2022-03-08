@@ -1,4 +1,4 @@
-#LINK TO MY BOOTSTRAP WEBSITE
+#LINK TO MY heroku apps server
 https://ravivarma-ci-cd.herokuapp.com/
 
 
