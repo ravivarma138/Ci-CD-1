@@ -28,28 +28,28 @@ def test_request_about(client):
 
 def test_request_page1(client):
     """This makes the index page"""
-    response = client.get("/page1")
+    response = client.get("/github")
     assert response.status_code == 200
-    assert b"page 1" in response.data
+    assert b"Page 1" in response.data
 
 
 def test_request_page2(client):
     """This makes the index page"""
-    response = client.get("/page2")
+    response = client.get("/dockerproj")
     assert response.status_code == 200
     assert b"Page 2" in response.data
 
 
 def test_request_page3(client):
     """This makes the index page"""
-    response = client.get("/page3")
+    response = client.get("/python-flask")
     assert response.status_code == 200
     assert b"Page 3" in response.data
 
 
 def test_request_page4(client):
     """This makes the index page"""
-    response = client.get("/page4")
+    response = client.get("/cicd")
     assert response.status_code == 200
     assert b"Page 4" in response.data
 
