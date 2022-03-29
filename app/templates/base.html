@@ -16,7 +16,7 @@
 
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid" style="width:2060px;" style=height:2260px;">
     <div class="row">
         <header class="mb-5">
             <!-- As a link -->
@@ -49,6 +49,24 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/page4">CI-CD</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   href="{{ url_for('simple_pages.show', page="Glossary") }}">Glossary</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   href="{{ url_for('simple_pages.show', page="AAATEST") }}">AAA TESTING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   href="{{ url_for('simple_pages.show', page="calculatoroop") }}">OOPS IN CALCULATOR</a>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                   href="{{ url_for('simple_pages.show', page="SOLID") }}">SOLID</a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
